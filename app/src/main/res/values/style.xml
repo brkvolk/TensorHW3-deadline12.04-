@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="HeaderStyle">
+        <item name="android:textColor">@color/header_color</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextStyle">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="lineHeight"> 25dp</item>
+    </style>
+    <style name="DescribtionStyle">
+        <item name="android:textColor">@color/discribtion_color</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <style name="myRadio" parent="Theme.AppCompat.Light">
+    <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+</resources>

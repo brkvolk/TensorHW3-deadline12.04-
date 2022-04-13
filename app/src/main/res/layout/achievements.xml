@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:contentDescription="@string/appbar_scrolling_view_behavior"
+    android:orientation="horizontal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="spread_inside">
+
+        <ImageView
+            android:id="@+id/item1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/award_trophy_first_champion_icon_149690"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <ImageView
+            android:id="@+id/item2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/award_trophy_first_champion_icon_149690"
+            app:layout_constraintLeft_toRightOf="@+id/item1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/item3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/award_trophy_first_champion_icon_149690"
+            app:layout_constraintLeft_toRightOf="@+id/item2"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/item4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/award_trophy_first_champion_icon_149690"
+            app:layout_constraintLeft_toRightOf="@+id/item3"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/item5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/award_trophy_first_champion_icon_149690"
+            app:layout_constraintLeft_toRightOf="@+id/item4"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</HorizontalScrollView>
