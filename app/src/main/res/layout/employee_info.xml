@@ -44,7 +44,7 @@
     <TextView
         android:id="@+id/e_position_describtion"
         style="@style/DescribtionStyle"
-        android:text="Разработка/Розница Менеджер продукта: Розница Android "
+        android:text="Разработка Android.\nМенеджер продукта Android. "
         app:layout_constraintStart_toEndOf="@+id/e_position"
         app:layout_constraintTop_toBottomOf="@+id/e_position" />
 </androidx.constraintlayout.widget.ConstraintLayout>
